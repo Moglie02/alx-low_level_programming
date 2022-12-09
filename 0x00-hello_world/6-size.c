@@ -3,9 +3,14 @@
  * main -print out size of data types in c
  *
  * Return: 0
- */
+*/
 int main(void)
 {
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
 
 	prinf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 	prinf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(b));
