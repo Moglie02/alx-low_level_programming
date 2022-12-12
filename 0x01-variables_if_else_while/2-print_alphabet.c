@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
  * main - returns alphabets
  *
@@ -8,13 +7,15 @@
  */
 int main(void)
 {
-	int ch = 'a';
 
-	while (ch <= 'z');
+	int c = 'a';
+
+	while (c <= 'z')
 	{
-		putchar(ch);
-		ch++;
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
