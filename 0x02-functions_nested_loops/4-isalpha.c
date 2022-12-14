@@ -2,7 +2,7 @@
 
 /**
 * _isalpha - checks for char alphabet
-* @c: The character in ASCII code
+* @c: The character to be checked.
 *
 * Return: 1 if chr is letter lower or upper, 0 otherwise
 */
