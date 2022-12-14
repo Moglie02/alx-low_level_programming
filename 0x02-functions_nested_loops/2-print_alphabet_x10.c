@@ -1,24 +1,20 @@
-I#include <stdio.h>
-
-void print_alphabet_x10(void);
+#include "main.h"
+/**
+ * print_alphabet_x10.c - function to print 10 times
+ *
+ * Return: 0 success
+ */
+void print_alphabet_x10(void)
 {
-	int i, alphabet;
+	char c, i;
 
-	for(i = 1; i <= 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for(i = 'a'; alphabet <= 'z'; alphabet++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			putchar(alphabet);
+			_putchar(c);
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
-/**
- * Return: Always 0(Success)
- */
-}
+
