@@ -1,24 +1,27 @@
 #include "main.h"
 /**
-* more_numbers - prints numbers to 14
-*
-*Return: ro returns
+* more_numbers - draws a straight line in the terminal.
+*@n: print int
+*Return: returns 0
 */
 void more_numbers(void)
 {
-int number1, number2;
 
-for (number1 = 1; number1 <= 10; number1++)
-{
-for (number2 = 0; number2 <= 14; number2++)
 
+int i;
+
+if (n >= 0)
 {
-if (number2 >= 9)
+for (i = 0; i < n; i++)
 {
-_putchar(number2 / 10) + '0');
+_putchar(95);
 }
-_putchar(number2 / 10) + '0');
+
+_putchar('\n');
 }
-_putchar(10);
+else
+{
+_putchar('\n');
 }
+
 }
