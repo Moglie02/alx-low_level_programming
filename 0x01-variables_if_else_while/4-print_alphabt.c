@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: get random number and check it
- * return: 0
- */
+* main - main block
+* Description: get random number and check it
+* return: 0
+*/
 int main(void)
 {
 char letter;
