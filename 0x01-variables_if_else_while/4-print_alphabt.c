@@ -6,16 +6,13 @@
  */
 int main(void)
 {
-	char c = 'a';
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+if (letter != 'e' && letter != 'q')
+putchar(c);
+}
+putchar('\n');
 
-	while (c <= 'z')
-	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
-		}
-		c++;
-	}
-	putchar('\n');
-	return (0);
+return (0);
 }
