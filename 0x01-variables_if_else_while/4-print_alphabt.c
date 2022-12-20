@@ -2,7 +2,8 @@
 /**
 * main - main block
 * Description: get random number and check it
-* return: 0
+*
+* Return: 0
 */
 int main(void)
 {
@@ -10,7 +11,7 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if (c != 'e' && letter != 'q')
+		if (c != 'e' && c != 'q')
 			putchar(c);
 			c++;
 	}
