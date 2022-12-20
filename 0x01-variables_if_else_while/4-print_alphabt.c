@@ -6,15 +6,14 @@
 */
 int main(void)
 {
-char c = 'a';
+	char c = 'a';
 
-while (c <= 'z')
-{
-if (c != 'e' && letter != 'q')
-putchar(c);
-}
-c++;
-}
-putchar('\n');
-return (0);
+	while (c <= 'z')
+	{
+		if (c != 'e' && letter != 'q')
+			putchar(c);
+			c++;
+	}
+	putchar('\n');
+	return (0);
 }
