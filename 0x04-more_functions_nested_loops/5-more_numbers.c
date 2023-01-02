@@ -1,27 +1,29 @@
 #include "main.h"
+
 /**
-* more_numbers - draws a straight line in the terminal.
-*@n: print int
-*Return: returns 0
-*/
+ * more_numbers - prints more numbers
+ * Return: 0 if successful
+ */
+
 void more_numbers(void)
 {
+	int i, j;
 
+	i = 0;
 
-int i;
+	while (i < 10)
+	{
+		for (j = 0; j < 15; j++)
+		{
+			if (j >= 10)
+			{
+				_putchar((j / 10) + 48);
+			}
+			_putchar((j % 10) + 48);
+		}
 
-if (n >= 0)
-{
-for (i = 0; i < n; i++)
-{
-_putchar(95);
-}
+		_putchar('\n');
 
-_putchar('\n');
-}
-else
-{
-_putchar('\n');
-}
-
+		i++;
+	}
 }
